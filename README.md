@@ -27,8 +27,6 @@ The scrapper was designed to iterate through all 48 pages of the content, sourci
 
 ### Run order:</br>
 
-</br>
-
 ````
 webscrapper.R -> pdfscrapper.R -> csvcleaner.R -> sentiment_analysis.R -> analysis.R
 ````
