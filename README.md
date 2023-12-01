@@ -24,3 +24,13 @@ The public representation data were sourced by web-scraping through the R packag
 </br>
 The scrapper was designed to iterate through all 48 pages of the content, sourcing from the targeted ``href`` and ``a`` tags and writing the retrieved results into a data frame, which would then be outputted into a <i>.csv</i>. The letters to editors were straightforward - the downloaded PDFs were pdf-scrapped through the ``pdftools`` package, loaded into a variable and then fed to a Corpus. Both datasets were extensively cleaned after being scraped and passed into a <i>.csv</i> file.</br>
 </div>
+
+### Run order:</br>
+
+</br>
+
+````
+webscrapper.R -> pdfscrapper.R -> csvcleaner.R -> sentiment_analysis.R -> analysis.R
+````
+
+</br>
